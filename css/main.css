@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lora:ital,wght@1,500&family=Montserrat:wght@200;300&display=swap');
+
+body
+{
+	font-family:'Inter',Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	background-color:#eee;
+	background-repeat: no-repeat;
+	background-position: left 400px;
+	margin: 0;
+	
+	background-image:url("../images/Mask group.png");
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family:  'Inter',Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+h1{font-size:48px;}
+h4{font-size: 20px;}
+h3{font-size:28px;}
+h2{font-size:40px;}
+
+*{ 
+	box-sizing: border-box;
+	scroll-behavior: smooth
+} 
+.container
+{
+	width: 80%; 
+	margin: auto; 
+}
+.row { display: flex; flex-wrap: wrap}
+.col-1 { width: 8.33%; }
+.col-2{ width: 16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+[class*="col-"]
+{
+	padding: 15px
+}
+
+.bg-primary{	background-color: aquamarine}
+.bg-footer{ background-color: #ddd}
+.img-100{ width: 100%; height: auto}
+/*--- bat dau style cho nav---*/
+.text-center{text-align: center}
+.text-right{text-align:right}
+.text-left{text-align:left}
+/* gióng các item trong 1row theo chiều dọc (top/center?bottom)*/
+.align-items-top{align-items: flex-start}
+.align-items-center{align-items:center}
+.align-items-bottom{align-items: flex-end}
+.justify-center{justify-content: center}
+.justify-right{justify-content: flex-start}
+.justify-left{justify-content: flex-end}
+.justify-around{justify-content: space-around}
+.justify-between{justify-content: space-between}
+
+/*color-style*/
+.bg-secondary{
+	
+	background-color: #2769DA
+}
+
+.btn-secondary
+{color:#FFFFFF;
+background-color:#2769DA;
+text-decoration: none;
+border: none;padding: 8px 15px;
+height:40px;
+}
+.btn-secondary:hover{
+	background:#7AA3FF;
+}
+#uudai{
+	background-image: url("../images/Group 20.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#caidat{
+	background-image: url("../images/Group 25.png");
+	background-repeat: no-repeat;
+	backface-position: left center;
+}
+
+
